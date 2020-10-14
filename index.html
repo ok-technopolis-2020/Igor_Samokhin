@@ -1,4 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
+<div class="app">
+    <header class="todo-header">
+        <h1 class="title">TODO</h1>
+    </header>
+
+    <main class="app-frame">
+        <section class="main-controls">
+            <div class="main-controls__select-all">
+                <button class="main-controls__select-all-button">Select all</button>
+            </div>
+            <div class="main-controls__input">
+                <input type="text" class="main-controls__input-field" placeholder="What needs to be done?"
+                       aria-label="Add new TODOs" autofocus="autofocus">
+            </div>
+        </section>
+
+        <section class="tasks">
+            <ul class="tasks_list">
+                <li class="tasks_item">
+                    <div class="tasks-item__task">
+                        <input type="checkbox" class="tasks-item__status" aria-label="HTML task complete status">
+                        <span class="tasks-item__task-name">HTML</span>
+                        <button class="tasks-item_delete-button">Delete task</button>
+                    </div>
+                </li>
+
+                <li class="tasks_item">
+                    <div class="tasks-item__task">
+                        <input type="checkbox" class="tasks-item__status" aria-label="CSS task complete status">
+                        <span class="tasks-item__task-name">CSS</span>
+                        <button class="tasks-item_delete-button">Delete task</button>
+                    </div>
+                </li>
+
+                <li class="tasks_item">
+                    <div class="tasks-item__task">
+                        <input type="checkbox" class="tasks-item__status" aria-label="JS task complete status">
+                        <span class="tasks-item__task-name">JS</span>
+                        <button class="tasks-item_delete-button">Delete task</button>
+                    </div>
+                </li>
+
+                <li class="tasks_item">
+                    <div class="tasks-item__task">
+                        <input type="checkbox" class="tasks-item__status" aria-label="JS tools task complete status">
+                        <span class="tasks-item__task-name">JS tools</span>
+                        <button class="tasks-item_delete-button">Delete task</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="side-controls">
+            <div class="side-controls__item">
+                <div class="side-controls__tasks-left">3 items left</div>
+            </div>
+            <div class="side-controls__item">
+                <div class="task-filter" role="group" aria-label="TODOs filter">
+                    <label class="task-filter__item">
+                        <input type="radio" class="task-filter__input" name="filter" checked="checked" value="All">
+                        <span class="task-filter__text" aria-label="Show all TOSOs">All</span>
+                    </label>
+
+                    <label class="task-filter__item">
+                        <input type="radio" class="task-filter__input" name="filter" value="Active">
+                        <span class="task-filter__text" aria-label="Show active TOSOs">Active</span>
+                    </label>
+
+                    <label class="task-filter__item">
+                        <input type="radio" class="task-filter__input" name="filter" value="Complete">
+                        <span class="task-filter__text" aria-label="Show complete TOSOs">Complete</span>
+                    </label>
+                </div>
+            </div>
+            <div class="side-controls__item">Clear completed</div>
+        </section>
+    </main>
+</div>
 </html>
