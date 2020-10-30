@@ -32,6 +32,11 @@ input[type="radio"] {
     border-radius: 2px;
 }
 
+.side-controls__item__task-filter__item__input:checked:focus + .side-controls__item__task-filter__item__text {
+    border: 2px var(--focus-border-color) solid;
+    border-radius: 4px;
+}
+
 .side-controls__clear-completed {
     border: 0;
     color: var(--side-control-color);
@@ -46,4 +51,8 @@ input[type="radio"] {
 
 .side-controls__clear-completed:hover {
     cursor: pointer;
+}
+
+.side-controls__clear-completed:focus{
+    border: 2px var(--focus-border-color) solid;
 }

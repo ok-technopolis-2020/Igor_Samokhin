@@ -2,7 +2,6 @@
     flex-grow: 1;
 }
 
-
 .tasks_list {
     padding-left: 0;
     margin-block-start: 0;
@@ -34,6 +33,13 @@ li {
     width: 1.5em;
     height: 1.5em;
     margin: 0.5em;
+}
+
+.tasks-item__status:focus + .tasks-item__status-icon{
+    border: 2px var(--focus-border-color) solid;
+}
+.tasks-item__status:focus:checked + .tasks-item__status-icon{
+    border: 2px var(--focus-border-color) solid;
 }
 
 .tasks-item__status:checked + .tasks-item__status-icon {
@@ -105,4 +111,5 @@ li {
 
 .tasks-item__delete-button:focus {
     z-index: 0;
+    border: 2px var(--focus-border-color) solid;
 }
