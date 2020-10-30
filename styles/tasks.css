@@ -114,3 +114,7 @@ li {
     z-index: 0;
     border: 2px var(--focus-border-color) solid;
 }
+
+.tasks-item__delete-button:hover {
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@
 }
 
 .main-controls__select-all {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     width: 3em;
 }
