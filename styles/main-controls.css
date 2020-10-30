@@ -33,8 +33,8 @@
     width: 2em;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx){
-    .main-controls__select-all-button{
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .main-controls__select-all-button {
         background-image: url("../icons/select-all@2x.png");
     }
 }

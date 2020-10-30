@@ -53,6 +53,6 @@ input[type="radio"] {
     cursor: pointer;
 }
 
-.side-controls__clear-completed:focus{
+.side-controls__clear-completed:focus {
     border: 2px var(--focus-border-color) solid;
 }

@@ -35,10 +35,11 @@ li {
     margin: 0.5em;
 }
 
-.tasks-item__status:focus + .tasks-item__status-icon{
+.tasks-item__status:focus + .tasks-item__status-icon {
     border: 2px var(--focus-border-color) solid;
 }
-.tasks-item__status:focus:checked + .tasks-item__status-icon{
+
+.tasks-item__status:focus:checked + .tasks-item__status-icon {
     border: 2px var(--focus-border-color) solid;
 }
 
