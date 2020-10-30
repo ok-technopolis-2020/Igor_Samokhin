@@ -1,13 +1,13 @@
 :root {
     --document-background-color: #f2f2f2;
-    --app-background-color: #FFFFFF;
+    --app-background-color: #ffffff;
     --app-box-shadow-color: rgba(0, 0, 0, 0.2);
-    --header-text-color: #CCCCCC;
-    --task-separator-color: #E6E6E6;
+    --header-text-color: #cccccc;
+    --task-separator-color: #e6e6e6;
     --side-control-color: #888888;
-    --radio-checked-border-color: #EBDFDF;
+    --radio-checked-border-color: #ebdfbf;
     --task-test-color: #666666;
-    --checked-checkbox-color: #5DC2AF;
-    --task-onhover-background-color: #FAFAFA;
+    --checked-checkbox-color: #5dc2af;
+    --task-onhover-background-color: #fafafa;
     --focus-border-color: black;
 }
