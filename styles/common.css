@@ -1,0 +1,11 @@
+html {
+    background-color: var(--document-background-color);
+}
+
+.document {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 21px;
+}
