@@ -1,0 +1,12 @@
+:root{
+    --document-background-color: #f2f2f2;
+    --app-background-color:#FFFFFF;
+    --app-box-shadow-color: rgba(0, 0, 0, 0.2);
+    --header-text-color: #CCCCCC;
+    --task-separator-color: #E6E6E6;
+    --side-control-color:#888888;
+    --radio-checked-border-color: #EBDFDF;
+    --task-test-color: #666666;
+    --checked-checkbox-color: #5DC2AF;
+    --task-onhover-background-color: #FAFAFA;
+}
