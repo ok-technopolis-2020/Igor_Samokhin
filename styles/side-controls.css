@@ -45,10 +45,7 @@ input[type="radio"] {
     padding: 0.2em 0.5em;
 }
 
-.side-controls__item__task-filter__item__text:hover {
-    cursor: pointer;
-}
-
+.side-controls__item__task-filter__item__text:hover,
 .side-controls__clear-completed:hover {
     cursor: pointer;
 }
