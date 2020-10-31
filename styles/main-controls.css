@@ -29,11 +29,11 @@
     font-size: var(--big-font-size);
     text-indent: -9999px;
 
-    height: 1em;
+    height: 2em;
     width: 2em;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .main-controls__select-all-button {
         background-image: url("../icons/select-all@2x.png");
     }
@@ -46,6 +46,7 @@
 .main-controls__input {
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 
 .main-controls__input-field {
@@ -58,7 +59,7 @@
 
     padding: 0;
 
-    display: inline-block;
+    display: inline-flex;
     height: 3em;
-    width: 49vw;
+    flex-grow: 1;
 }
