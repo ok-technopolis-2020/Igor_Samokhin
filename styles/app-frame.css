@@ -4,6 +4,6 @@
 
     background-color: var(--app-background-color);
     box-shadow: 0 2px 4px var(--app-box-shadow-color);
-    width: 56vw;
+    min-width: 56vw;
     min-height: 67vh;
 }

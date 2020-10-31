@@ -1,6 +1,7 @@
 .side-controls {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 
     align-self: flex-end;
     height: 2em;
@@ -11,8 +12,10 @@
 
 .side-controls__item {
     margin: auto 0.5em;
-    font-size: 14px;
+    font-size: var(--small-font-size);
     color: var(--side-control-color);
+    display: flex;
+    white-space: nowrap;
 }
 
 input[type="radio"] {
@@ -25,20 +28,21 @@ input[type="radio"] {
     padding: 0.2em 0.5em;
 
     margin-left: 1em;
+    border: 1px var(--app-background-color) solid;
 }
 
 .side-controls__item__task-filter__item__input:checked + .side-controls__item__task-filter__item__text {
     border: 1px var(--radio-checked-border-color) solid;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .side-controls__item__task-filter__item__input:checked:focus + .side-controls__item__task-filter__item__text {
-    border: 2px var(--focus-border-color) solid;
+    border: 1px var(--focus-border-color) solid;
     border-radius: 4px;
 }
 
 .side-controls__clear-completed {
-    border: 0;
+    border: 1px var(--app-background-color) solid;
     color: var(--side-control-color);
     background-color: inherit;
 
@@ -51,5 +55,5 @@ input[type="radio"] {
 }
 
 .side-controls__clear-completed:focus {
-    border: 2px var(--focus-border-color) solid;
+    border: 1px var(--focus-border-color) solid;
 }
