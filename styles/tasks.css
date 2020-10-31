@@ -80,9 +80,11 @@ li {
 .tasks-item__delete-button {
     font-size: inherit;
     border-width: 0;
-    margin: auto .99em auto auto;
-    height: .99em;
-    width: .99em;
+    margin: auto .5em auto auto;
+    padding: 0.5em;
+
+    height: 1em;
+    width: 1em;
     z-index: -1;
     background-image: url("../icons/close.png");
     background-repeat: no-repeat;
