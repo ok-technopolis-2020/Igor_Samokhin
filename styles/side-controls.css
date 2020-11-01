@@ -1,0 +1,59 @@
+.side-controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    align-self: flex-end;
+    height: 2em;
+    width: 100%;
+    bottom: 0;
+    box-shadow: inset 0 1px 0 var(--task-separator-color);
+}
+
+.side-controls__item {
+    margin: auto 0.5em;
+    font-size: var(--small-font-size);
+    color: var(--side-control-color);
+    display: flex;
+    white-space: nowrap;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.side-controls__item__task-filter__item__text {
+    padding: 0.2em 0.5em;
+
+    margin-left: 1em;
+    border: 1px var(--app-background-color) solid;
+}
+
+.side-controls__item__task-filter__item__input:checked + .side-controls__item__task-filter__item__text {
+    border: 1px var(--radio-checked-border-color) solid;
+    border-radius: 4px;
+}
+
+.side-controls__item__task-filter__item__input:checked:focus + .side-controls__item__task-filter__item__text {
+    border: 1px var(--focus-border-color) solid;
+    border-radius: 4px;
+}
+
+.side-controls__clear-completed {
+    border: 1px var(--app-background-color) solid;
+    color: var(--side-control-color);
+    background-color: inherit;
+
+    padding: 0.2em 0.5em;
+}
+
+.side-controls__item__task-filter__item__text:hover,
+.side-controls__clear-completed:hover {
+    cursor: pointer;
+}
+
+.side-controls__clear-completed:focus {
+    border: 1px var(--focus-border-color) solid;
+}

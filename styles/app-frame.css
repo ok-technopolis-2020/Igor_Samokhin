@@ -1,0 +1,11 @@
+.app-frame {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--app-background-color);
+    box-shadow: 0 2px 4px var(--app-box-shadow-color);
+    min-width: fit-content;
+    width: 56vw;
+    max-width: 56vw;
+    min-height: 67vh;
+}
