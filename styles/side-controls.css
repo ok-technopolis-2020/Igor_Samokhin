@@ -29,17 +29,18 @@ input[type="radio"] {
 
     margin-left: 1em;
     border: 1px var(--app-background-color) solid;
+
+    .side-controls__item__task-filter__item__input:checked + & {
+        border: 1px var(--radio-checked-border-color) solid;
+        border-radius: 4px;
+    }
+
+    .side-controls__item__task-filter__item__input:checked:focus + & {
+        border: 1px var(--focus-border-color) solid;
+        border-radius: 4px;
+    }
 }
 
-.side-controls__item__task-filter__item__input:checked + .side-controls__item__task-filter__item__text {
-    border: 1px var(--radio-checked-border-color) solid;
-    border-radius: 4px;
-}
-
-.side-controls__item__task-filter__item__input:checked:focus + .side-controls__item__task-filter__item__text {
-    border: 1px var(--focus-border-color) solid;
-    border-radius: 4px;
-}
 
 .side-controls__clear-completed {
     border: 1px var(--app-background-color) solid;
