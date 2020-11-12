@@ -2,4 +2,4 @@
 /dist/
 /.idea/
 /.cache/
-
+.gitignore
