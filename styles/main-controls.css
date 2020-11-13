@@ -1,65 +1,57 @@
 .main-controls {
-    display: flex;
-    position: sticky;
-
-    background-color: var(--app-background-color);
-    top: 0;
-    height: 3.05em;
-    box-shadow: inset 0 -1px 0 var(--task-separator-color);
+	display          : flex;
+	position         : sticky;
+	background-color : var(--app-background-color);
+	top              : 0;
+	height           : 3.05em;
+	box-shadow       : inset 0 -1px 0 var(--task-separator-color);
 }
 
 .main-controls__select-all {
-    display: flex;
-    justify-content: center;
-    width: 3em;
-}
+	display         : flex;
+	justify-content : center;
+	width           : 3em;
 
-.main-controls__select-all-button {
-    display: block;
+	.main-controls__select-all-button {
+		display             : block;
+		background-color    : inherit;
+		background-image    : url("../icons/select-all.png");
+		background-repeat   : no-repeat;
+		background-position : center;
+		background-size     : 1em;
+		border-width        : 0;
+		margin              : auto 0.5em;
+		font-size           : var(--big-font-size);
+		text-indent         : -9999px;
+		height              : 2em;
+		width               : 2em;
+		@media (-webkit-min-device-pixel-ratio : 2), (min-resolution : 2dppx) {
+			& {
+				background-image : url("../icons/select-all@2x.png");
+			}
+		}
 
-    background-color: inherit;
-    background-image: url("../icons/select-all.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1em;
-
-    border-width: 0;
-    margin: auto 0.5em;
-
-    font-size: var(--big-font-size);
-    text-indent: -9999px;
-
-    height: 2em;
-    width: 2em;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    .main-controls__select-all-button {
-        background-image: url("../icons/select-all@2x.png");
-    }
-}
-
-.main-controls__select-all-button:hover {
-    cursor: pointer;
+		&:hover {
+			cursor : pointer;
+		}
+	}
 }
 
 .main-controls__input {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-}
+	display     : flex;
+	align-items : center;
+	flex-grow   : 1;
 
-.main-controls__input-field {
-    font-size: inherit;
-    font-style: italic;
-    font-weight: 300;
-    color: var(--header-text-color);
-    border: none;
-    background-color: inherit;
-
-    padding: 0;
-
-    display: inline-flex;
-    height: 3em;
-    flex-grow: 1;
+	&-field {
+		font-size        : inherit;
+		font-style       : italic;
+		font-weight      : 300;
+		color            : var(--header-text-color);
+		border           : none;
+		background-color : inherit;
+		padding          : 0;
+		display          : inline-flex;
+		height           : 3em;
+		flex-grow        : 1;
+	}
 }

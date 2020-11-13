@@ -1,19 +1,18 @@
 :root {
-    /* *************** COLORS *************** */
-    --document-background-color: #f2f2f2;
-    --app-background-color: #ffffff;
-    --app-box-shadow-color: rgba(0, 0, 0, 0.2);
-    --header-text-color: #cccccc;
-    --task-separator-color: #e6e6e6;
-    --side-control-color: #888888;
-    --radio-checked-border-color: #ebdfbf;
-    --task-test-color: #666666;
-    --checked-checkbox-color: #5dc2af;
-    --task-onhover-background-color: #fafafa;
-    --focus-border-color: black;
-
-    /* *************** FONT SIZES *************** */
-    --big-font-size: 24px;
-    --medium-font-size: 21px;
-    --small-font-size: 14px;
+	/* *************** COLORS *************** */
+	--document-background-color     : #f2f2f2;
+	--app-background-color          : #ffffff;
+	--app-box-shadow-color          : rgba(0, 0, 0, 0.2);
+	--header-text-color             : #cccccc;
+	--task-separator-color          : #e6e6e6;
+	--side-control-color            : #888888;
+	--radio-checked-border-color    : #ebdfbf;
+	--task-test-color               : #666666;
+	--checked-checkbox-color        : #5dc2af;
+	--task-onhover-background-color : #fafafa;
+	--focus-border-color            : black;
+	/* *************** FONT SIZES *************** */
+	--big-font-size                 : 24px;
+	--medium-font-size              : 21px;
+	--small-font-size               : 14px;
 }

@@ -1,0 +1,27 @@
+{
+  "name": "igor_samokhin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bash": "0.0.1",
+    "parcel": "^1.12.4",
+    "surge": "^0.21.6"
+  },
+  "devDependencies": {
+    "postcss-nested": "^4.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-2020/Igor_Samokhin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-2020/Igor_Samokhin/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-2020/Igor_Samokhin#readme"
+}
